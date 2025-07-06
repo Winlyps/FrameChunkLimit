@@ -1,5 +1,14 @@
 name: FrameChunkLimit
-version: '1.0.0'
+version: 1.0.0
 main: winlyps.frameChunkLimit.FrameChunkLimit
 api-version: '1.20'
-authors: [ Winlyps ]
+author: winlyps
+commands:
+  framechunk:
+    description: Sets the limit for frames that can be placed in a chunk.
+    usage: /framechunk <limit>
+    permission: framechunklimit.set
+permissions:
+  framechunklimit.set:
+    description: Allows users to set the frame limit per chunk.
+    default: op
