@@ -1,0 +1,5 @@
+name: FrameChunkLimit
+version: '1.0.0'
+main: winlyps.frameChunkLimit.FrameChunkLimit
+api-version: '1.20'
+authors: [ Winlyps ]
